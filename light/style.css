@@ -1,0 +1,45 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(18, 28, 28);
+}
+#bulb{
+    height: 300px;
+    width:300px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: black;
+    
+}
+#btn{
+    height: 4rem;
+    width: 4rem;
+    border: 1px solid green;
+    border-radius: 50%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+h1{
+    text-align: center;
+    color: chartreuse;
+}
+.bttn{
+   
+     display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-top: 60px;
+
+}
+button{
+     font-size: 20px;
+}
+marquee{
+    margin-top: 30px;
+    color : rgb(220, 228, 228);
+}
