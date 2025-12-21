@@ -14,5 +14,5 @@ divbox.addEventListener("mouseenter",function(){
 let btn = document.getElementById("btn");
 
 btn.addEventListener("click",function(){
-    console.dir(this);
+    console.dir(this.innerText); // only this print whole button.
 });

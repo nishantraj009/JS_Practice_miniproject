@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#outerdiv{
+margin: 30px;
+text-align: center;
+}
+body{
+    background-color: rgb(141, 108, 108);
+}
