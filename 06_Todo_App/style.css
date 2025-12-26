@@ -1,0 +1,52 @@
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.todo-card {
+ height: 300px;
+  width: 500px;
+  border-radius: 15px;
+  box-shadow: 10px 9px 11px black;
+  
+}
+
+.todo-card {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.todo-card:hover {
+  transform: translateY(-12px) scale(1.02);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.45);
+}
+
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  background-color: #fbff02;
+  font-size: large;
+  color: black;
+}
+
+.todo-item.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.todo-item span {
+  cursor: pointer;
+}
+
+marquee {
+  font-weight: bold;
+  color: #4c0891;
+}
